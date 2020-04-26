@@ -9,3 +9,8 @@ The goal is to automaticlaly fit the model to data by use of numerical optimizat
 This repository is associated with a paper presented at the 16th International Conference of IACMAG. A preprint of the paper is available at researchgate. 
 
 [comment]: <> (Installation; if I compile the package as an installable module)
+
+## Custom multi-start algorithm
+Optimization trials for these kind of physics-based consolidation models indicate that the problem suffers significantly from local optima, especially if no manual prefitting is done to limit the parameter space. Efficient local optimization algorithms therefore lead to suboptimal solutions, but global optimization schemes, which do converge, require a prohibitive amount of iterations. The shape of the loss convection lends itself to a more optimal global optimization by using random multistart optimization with local searches. Once a threshold (three is found to be sufficient) local optima are found which are the lowest in the overall space and converge to (approximately) the same position, the algoritm asssumes to have found the global optimum. Benchmarks show favourable results with theoretical solutions optimizing 6 parameters with a physicial meaning. 
+
+[comment]: <> (Add figure)

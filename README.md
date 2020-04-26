@@ -7,3 +7,5 @@ This repository contains a numerical implementation of the Terzaghi model to sim
 The goal is to automaticlaly fit the model to data by use of numerical optimization. An example of this automatic parameter fitting is given with a number of algorithms.
 
 This repository is associated with a paper presented at the 16th International Conference of IACMAG. A preprint of the paper is available at researchgate. 
+
+[comment]: <> (Installation; if I compile the package as an installable module)

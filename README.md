@@ -6,7 +6,7 @@ This repository contains a numerical implementation of the Terzaghi model to sim
 
 The goal is to automatically fit the model to data by use of numerical optimization. An example of this automatic parameter fitting is given with a number of algorithms. It is possible to test out different algorithms and compare the results right away. All iterations are saved for further evaluation. 
 
-This repository is associated with a paper presented at the 16th International Conference of IACMAG. A preprint of the paper is available at researchgate. 
+This repository is associated with a paper accepted for the 16th International Conference of IACMAG. A preprint of the paper is available at [researchgate](https://www.researchgate.net/publication/340996661_Parallelized_numerical_optimization_for_parameter_fitting_of_an_advanced_elasto-viscoplastic_model_with_an_open_source_implementation). 
 
 [comment]: <> (Installation; if I compile the package as an installable module)
 
